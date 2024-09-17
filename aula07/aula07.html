@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando tabelas (thead,tbody,tfoot)</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 3px solid rgb(100, 130, 40);
+            width: 75%;
+        }
+        tbody{
+            font-size: 90%;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+        tfoot{
+            font-weight: bold;
+            font-size: 75%;
+        }
+        thead{
+            color: darkblue;
+        }
+        td{
+            text-align: center;
+            border: 1px solid rgb(100, 130, 40);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+           Agenda de endereços
+        </caption>
+        <thead>
+            <th rowspan="4">Amigos</th>
+            <th>Nome </th>
+            <th>Sobrenome </th>
+            <th>Cidade </th>
+            <th colspan="2">Endereço </th>
+        </thead>
+        <tfoot>
+            <td colspan="5">Bóson Treinamentos em Tecnologias</td>
+        </tfoot>
+        <tbody>
+            <tr>
+               <td>Fábio</td>
+               <td>dos reis</td>
+               <td>São paulo</td>
+               <td>Rua das Figueiras, 254</td>
+               <td>Jardim Primavera</td>
+                   </tr>
+             <tr>
+               <td>Ana</td>
+               <td>Paula</td>
+               <td>Recife</td>
+               <td>Rua das Ciclames, 44</td>
+               <td>Jardim Outono</td>
+              </tr>
+              <tr>
+               <td>Renata</td>
+               <td>Pacheco</td>
+               <td>Santos</td>
+               <td>Rua das Heras, 123</td>
+               <td>Jardim Verão</td>
+            </tr>
+            <tr>
+                <td>Silvana</td>
+                <td>Marconde</td>
+                <td>São Paulo</td>
+                <td>Rua Vicente Araújo, 1862</td>
+                <td>Jardim Verão</td>
+            </tr>
+            <tr>
+                <td>Jorge</td>
+                <td>Mazzolli</td>
+                <td>Rio de Janeiro</td>
+                <td>AV.atlântica,2660</td>
+                <td>Copacabana</td>
+            </tr>
+        </tbody>
+       </table>
+</body>
+</html>
